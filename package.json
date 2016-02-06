@@ -1,0 +1,25 @@
+{
+  "name": "flaby-pirkka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.php",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "http-server": "^0.6.1",
+    "karma-jasmine": "^0.2.3",
+    "bower": "^1.7.1",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-junit-reporter": "^0.2.2",
+    "karma": "^0.12.37",
+    "protractor": "^1.8.0",
+    "shelljs": "^0.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
