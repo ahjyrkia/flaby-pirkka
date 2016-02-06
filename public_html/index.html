@@ -1051,7 +1051,7 @@
                         if (audio.sounds[0].volume > 0) {
                             audio.sounds[0].volume = 0.00;
                         } else {
-                            audio.sounds[0].volume = 0.07;
+                            audio.sounds[0].volume = 0.13;
                         }
                     case 78: //n
                         // mute äänet tänne
@@ -1151,7 +1151,7 @@
                         width: s_buttons.Ok.width,
                         height: s_buttons.Ok.height
                     };
-                    audio.sounds[0].volume = 0.07;
+                    audio.sounds[0].volume = 0.13;
                     bullethitSound.volume(0.1);
                     gunSound.volume(0.1);
                     electricSound.volume(0.007);
@@ -1182,6 +1182,7 @@
                     enemies.update();
                     projectiles.update();
                     explosions.update();
+                    audio.sounds[0].play();
                 }
                 hero.update();
             }
